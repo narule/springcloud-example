@@ -4,16 +4,16 @@ springcloud projects hwo to use
 
 springcloud
 
---config 统一配置中心\
-  ----config-server 配置中心应用\
-  ----config-client 读取配置的客户端应用
+--config 统一配置中心	
+	config-server 配置中心应用
+	config-client 读取配置的客户端应用
 
---eureka 服务注册发现\
-  ----eureka-server 服务注册中心\
-  ----eureka-client 服务注册者，真正提供服务的应用
+--eureka 服务注册发现
+	eureka-server 服务注册中心
+	eureka-client 服务注册者，真正提供服务的应用
 
 --feign 远程服务调用
-  
+
 --gateway 网关路由
 
 
