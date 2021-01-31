@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: feign-client
+  cloud:
+    refresh:
+      enabled: true
+    config:
+      uri:
+      - http://localhost:8888

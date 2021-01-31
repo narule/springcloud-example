@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: server-config
+  cloud:
+    config:
+      server:
+        git:
+#          uri: file://D:/Jser/data/wunanyu/git-config
+#          uri: /usr/data/git/cloud/config
+          uri: https://github.com/narule/spring-cloud-config
+          #username: narule
+          #password: gh_j20190110
+    refresh:
+      enabled: true

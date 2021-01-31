@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: config-client-two
+
+  cloud:
+    refresh:
+      enabled: true    config:      uri:      - http://localhost:8888
